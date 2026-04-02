@@ -1399,3 +1399,11 @@
     e.preventDefault();
     const btn = e.target.querySelector('.submit-btn');
     btn.textContent = 'Message Sent ✓';
+    setTimeout(() => {
+      btn.textContent = 'Send Message';
+      e.target.reset();
+    }, 2500);
+  }
+</script>
+</body>
+</html>
