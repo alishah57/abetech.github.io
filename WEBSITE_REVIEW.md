@@ -41,31 +41,3 @@ This review highlights high-impact improvements for conversion, trust, performan
 2. Add linting/formatting and a lightweight CI check for HTML/CSS validity.
 3. Store curriculum/testimonial data in JSON and render via templates for easier updates.
 
-## 7) Recommended visual directions (color/style)
-
-### Option A (implemented): Modern fintech blue
-- Primary: `#2563eb`
-- Secondary: `#60a5fa`
-- Dark base: `#0f172a`
-- Accent: `#fb923c`
-- Surface: `#f8fafc`
-
-Why: Looks more premium/tech-forward than green-gold, while keeping strong contrast and trust signals.
-
-### Option B: Deep emerald + graphite
-- Primary: `#059669`
-- Secondary: `#34d399`
-- Dark base: `#111827`
-- Accent: `#f59e0b`
-- Surface: `#f9fafb`
-
-Why: Keeps a “financial growth” vibe but with cleaner modern neutrals.
-
-### Option C: Monochrome + electric accent
-- Primary: `#0ea5e9`
-- Secondary: `#38bdf8`
-- Dark base: `#020617`
-- Accent: `#a78bfa`
-- Surface: `#f8fafc`
-
-Why: Very modern SaaS feel and highly brandable if you want to stand out.
