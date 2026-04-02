@@ -9,6 +9,7 @@
 <meta property="og:description" content="Structured trading education for stocks, options, and crypto.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -689,7 +690,7 @@ footer { background: var(--navy); padding: 72px 60px 40px; }
     <div class="footer-col"><h4>Company</h4><ul><li><a href="#">About Us</a></li><li><a href="#">Blog</a></li><li><a href="#contact">Contact</a></li><li><a href="https://www.instagram.com/ali.shah0700" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
   </div>
   <div class="footer-bottom">
-    <span>© 2026 Abetech TradeX. All rights reserved.</span>
+    <span>© <span id="currentYear">2026</span> Abetech TradeX. All rights reserved.</span>
     <div class="social-links">
       <a class="social-link" href="https://www.instagram.com/ali.shah0700" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📸</a>
       <a class="social-link" href="#" aria-label="X (Twitter)">🐦</a>
@@ -701,6 +702,7 @@ footer { background: var(--navy); padding: 72px 60px 40px; }
 </footer>
 
 <script>
+document.getElementById('currentYear').textContent = new Date().getFullYear();
 const modules = {
   stocks: [
     {num:'01',title:'How Markets Actually Work',sub:'Exchanges · Market Makers · Order Types · Liquidity',level:'beg',lvl:'Beginner',dur:'45 min · 6 lessons'},
